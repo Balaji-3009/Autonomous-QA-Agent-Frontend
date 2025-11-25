@@ -7,7 +7,7 @@ import os
 
 load_dotenv()
 
-api_key = os.getenv("BACKEND_API_KEY")
+api_key = st.secrets["BACKEND_URL"]
 
 st.set_page_config(
     page_title="Autonomous QA Agent",
